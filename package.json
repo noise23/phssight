@@ -54,7 +54,7 @@
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/sight-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/phssight-api"
   },
   "dependencies": {
     "sight-api": "git://github.com/noise23/phssight-api.git"
