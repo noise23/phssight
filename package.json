@@ -1,0 +1,75 @@
+{
+  "name": "sight",
+  "description": "An open-source frontend for the BlockExplorer API. The BlockExplorer API provides you with a convenient, powerful and simple way to query and broadcast data on the PHS network and build your own services with it.",
+  "version": "0.2.6",
+  "author": {
+    "name": "Larry Ren",
+    "email": "ren@reddcoin.com"
+  },
+  "repository": "",
+  "contributors": [
+    {
+      "name": "Mike Croteau",
+      "email": "mike@reddcoin.com"
+    },
+    {
+      "name": "Andrew Groff",
+      "email": "andrew@reddcoin.com"
+    },
+    {
+      "name": "Ryan X Charles",
+      "email": "ryan@bitpay.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    },
+    {
+      "name": "Mario Colque",
+      "email": "colquemario@gmail.com"
+    },
+    {
+      "name": "Gustavo Cortez",
+      "email": "cmgustavo83@gmail.com"
+    },
+    {
+      "name": "Juan Ignacio Sosa Lopez",
+      "email": "bechilandia@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "blockchain",
+    "blockexplorer",
+    "bitcore",
+    "front-end"
+  ],
+  "scripts": {
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/phssight-api"
+  },
+  "dependencies": {
+    "sight-api": "git://github.com/noise23/phssight-api.git"
+  },
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-macreload": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-markdown": "~0.5.0",
+    "grunt-angular-gettext": "^0.2.15"
+  }
+}

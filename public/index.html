@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-ng-app="insight" data-ng-csp>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="fragment" content="!">
+	<title data-ng-bind="'PHS crypto blockchain explorer'">Philosopherstone blockchain explorer</title>
+	<meta name="keywords" content="transactions, blocks, address, block chain, best block, difficulty, hash serialized">
+	<meta name="description" content="PHS Insight. View detailed information on all PHS transactions and block.">
+	<link rel="shortcut icon" href="/img/icons/favicon.ico">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky">
+	<link rel="stylesheet" href="/css/main.min.css">
+</head>
+<body ng-cloak class="ng-cloak">
+	<div id="wrap">
+		<div class="navbar navbar-default navbar-fixed-top" data-ng-include="'/views/includes/header.html'" role='navigation'></div>
+		<section class="container" data-ng-view></section>
+	</div>
+	<div id="footer" role="navigation">
+    <div class="container" data-ng-controller="FooterController">
+      <a class="insight m10v pull-left" href="http://explorer.phstones.com">explorer.phstones.com</a>
+      <a class="insight m10v pull-right" target="_blank" href="http://phstones.com">phstones.com</a>
+    </div>
+  </div>
+ 	  <center><span style="font-size:10pt">Copyright &copy 2016 Philosopherstone developers.</span></center>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/js/vendors.min.js"></script>
+	<script src="/js/angularjs-all.min.js"></script>
+	<script src="/js/main.min.js"></script>
+</body>
+</html>
