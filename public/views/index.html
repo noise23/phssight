@@ -5,7 +5,7 @@
   <div class="container">
   <div class="page-header">
     <h1>
-      PHS explorer
+      Philosoperstone blockchain explorer
     </h1>
   </div>
   <div id="home" class="row">
@@ -57,7 +57,7 @@
             <td class="text-right ellipsis"><a href="/block/{{lastblockhash}}">{{lastblockhash}}</a></td>
           </tr>
           <tr>
-            <td>Current Blockchain Tip (Explorer)</td>
+            <td>Current Blockchain Tip (explorer)</td>
             <td class="text-right ellipsis"><a href="/block/{{syncTipHash}}">{{syncTipHash}}</a></td>
           </tr>
         </tbody>
@@ -110,7 +110,10 @@
            </tr>
            </tbody>
          </table>
+		 
+		 
  -->
+ 
     </div> <!-- END OF COL-8 -->
 
     <div class="col-xs-12 col-md-4 col-gray">
@@ -130,18 +133,22 @@
             <td>Blocks</td>
             <td class="text-right"><a href="/block-index/{{info.blocks}}">{{info.blocks}}</a></td>
           </tr>
+		  <!--
           <tr>
             <td>Time Offset</td>
             <td class="text-right">{{info.timestamping.ntpoffset}}</td>
           </tr>
+		   -->
           <tr>
             <td>Connections</td>
             <td class="text-right">{{info.connections}}</td>
           </tr>
+		  <!--
           <tr>
            <td>POS Difficulty</td>
             <td class="text-right">{{info.difficulty.proofofstake}}</td>
           </tr>
+		   -->
           <tr>
             <td>Testnet</td>
             <td class="text-right">{{info.testnet}}</td>
@@ -151,8 +158,12 @@
     </div> <!-- END OF COL-GRAY -->
 
   </div>
-        <div class="btn-more" align="center"><br /><br /><br />
+        <div class="btn-more" align="center"><br /><br />
           <a href="#" onClick="document.location.reload(true)" class="btn btn-default">Refresh page</a>
+        </div>
+		
+		        <div class="btn-more" align="center"><br />
+         <b><span style="color:#3399CC;">Donations are appreciated! PHS:</span> <span style="color:#CC3333;">9nW5azPS7x8okf1ophVQ6YeqKGaYRvj8xN</span></b>
         </div>
    </div>
 </section>

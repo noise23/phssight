@@ -1694,8 +1694,8 @@ input[type=submit].btn-block, input[type=reset].btn-block, input[type=button].bt
 }
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(../fonts/glyphicons-halflings-regular.eot);
-    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+    src: url(http://explorer.phstones.com/fonts/glyphicons-halflings-regular.eot);
+    src: url(http://explorer.phstones.com/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(http://explorer.phstones.com/fonts/glyphicons-halflings-regular.woff) format('woff'), url(http://explorer.phstones.com/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(http://explorer.phstones.com/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
 }
 .glyphicon {
     position: relative;
@@ -4506,7 +4506,7 @@ th.visible-print, td.visible-print {
 }
 }html, body {
     color: #373D42;
-    font-family: Ubuntu, sans-serif;
+   font-family: Ubuntu, sans-serif;
     height: 100%}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #373D42;
@@ -4617,10 +4617,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #0195CD;
+    background-color: #3AAF75;
 }
 .navbar-default {
-    background-color: #004A80;
+    background-color: #1F3F3F;
     margin: 0;
     border: 0;
 }
@@ -4631,12 +4631,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding-right: 10px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-    background-color: #008BC8;
+    background-color: #339966;
     color: #fff;
     border-bottom: 2px solid #1fbba6;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #0195CD;
+    background-color: #3AAF75;
     color: #fff;
     border-bottom: 2px solid #1fbba6;
 }
@@ -4710,7 +4710,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .status {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    background-color: #008BC8;
+    background-color: #339966;
     border-radius: 3px;
     margin: 15px 0;
     padding: 8px 10px;
@@ -4854,10 +4854,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 400;
 }
 .progress-bar-info {
-    background-color: #008BC8;
+    background-color: #339966;
 }
 #footer {
-    background-color: #004A80;
+    background-color: #1F3F3F;
     color: #fff;
     height: 51px;
     overflow: hidden;
